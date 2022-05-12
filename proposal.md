@@ -1,4 +1,6 @@
-# A CRISPR Finite State Machine
+% A CRISPR Finite State Machine
+% Miles Wang-Henderson; Wiona Glänzer
+% 12 May 2022
 
 The native framework of instruction-execution that CRISPR/Cas provides has recently enabled highly programmable information processing for logical operations. Specifically, a CRISPRi system was repurposed as a logical unit; and guide RNA defined the "software" layer, whereby logical operations could be controlled combinatorially. [^crisprcpu]
 
