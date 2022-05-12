@@ -1,3 +1,0 @@
-# CRISPR-based computing
-
-
