@@ -26,3 +26,13 @@ Resources
 	set of identical n-bit (n 5 m) LSI chips called bit slices
 * `wiki` [Automata Theory](https://cs.stanford.edu/people/eroberts/courses/soco/projects/2004-05/automata-theory/basics.html) 
 * `diagram` [Automata classes](https://upload.wikimedia.org/wikipedia/commons/a/a2/Automata_theory.svg) 
+
+
+Questions to address
+---
+* How fast can we process inputs, what are barriers?
+* How to control write error? Error correction?
+* For parallelization, how to define a thread here?
+* How to connect information encoded in DNA to information encoded in stable gRNA concentrations?
+* "State" vs. cache
+
