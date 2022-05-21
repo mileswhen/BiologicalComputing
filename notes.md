@@ -30,9 +30,11 @@ Resources
 
 Questions to address
 ---
-* How fast can we process inputs, what are barriers?
-* How to control write error? Error correction?
+* riboswitches to connect caches?
+* encode some information in RNA to be written (PE)?
+* use roofline model to conceptualize the problem?
+* How to control write error? Less error-prone writer or error correction.
 * For parallelization, how to define a thread here?
 * How to connect information encoded in DNA to information encoded in stable gRNA concentrations?
-* "State" vs. cache
+* "state" vs. cache
 
