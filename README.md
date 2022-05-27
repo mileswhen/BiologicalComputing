@@ -36,7 +36,7 @@ See `proposal.pdf` and `slides.pdf` for more detail.
 
 ### Comp Architecture
 * `course` [ETHz: Digital Design & Computer Architecture 2021](https://safari.ethz.ch/digitaltechnik/spring2021/doku.php?id=schedule)
-& `course` [Oxford: Microcontroller Systems 2014](https://www.robots.ox.ac.uk/~dwm/Courses/2CO_2014/)
+* `course` [Oxford: Microcontroller Systems 2014](https://www.robots.ox.ac.uk/~dwm/Courses/2CO_2014/)
 
 
 ## Questions to address
