@@ -1,9 +1,10 @@
 Resources
 ---
-## DNA Computing
+## Biological Computing
 * `slides` [Adleman's First Demonstration of DNA Computing](https://users.cs.duke.edu/~reif/courses/molcomplectures/DNA.Computing.Adleman/DNA.Computing.Adleman.pdf)
 * `paper` [A Sticker-Based Model for DNA Computation](https://doi.org/10.1089/cmb.1998.5.615) 
 * `review` [DNA computing for combinational logic](https://link.springer.com/content/pdf/10.1007/s11432-018-9530-x.pdf) 
+* `website` [Cellular state machines for programming complex, state-dependent genetic circuits](https://tlo.mit.edu/technologies/cellular-state-machines-programming-complex-state-dependent-genetic-circuits#:~:text=State%20machines%20can%20exist%20in,response%20to%20chemical%20inducer%20inputs.)
 
 ## CRISPR-Cas Information Processing
 * `paper` [A CRISPR/Cas9-based central processing unit to program complex logic computation in human cells](https://www.pnas.org/doi/10.1073/pnas.1821740116) `paper`
@@ -30,11 +31,10 @@ Resources
 
 Questions to address
 ---
-* riboswitches to connect caches?
+* Why do fast computation? Application? Fast-response to complex stimulus. Transient state preservation. As a tool to re-program gene circuits (modulo counter that changes the write address).
 * encode some information in RNA to be written (PE)?
 * use roofline model to conceptualize the problem?
-* How to control write error? Less error-prone writer or error correction.
+* How to control write error? Less error-prone writer or error correction. Maybe use PE to delete, "flush cache"?
 * For parallelization, how to define a thread here?
 * How to connect information encoded in DNA to information encoded in stable gRNA concentrations?
-* "state" vs. cache
-
+* any advantage to making this synchronous via clock?
