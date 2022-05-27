@@ -2,6 +2,8 @@
 
 A proposal to enable faster cellular finite-state-machines. Basic idea is to use a cache hierarchy: construct a fast cache using transcription regulation (CRISPRi + CRISPRa), and a slow cache using an existing concept (DOMINO operator). The main innovation would be to transfer principles from computer architecture, and construct a robust SR latch using CRISPR. Additionaly, we could maybe dramatically speed up DOMINO if we could make base editors dissociate faster. It's been shown in single-molecule experiments that they take hours to dissociate. One idea could be to engineer a "toehold" switch sgRNA. This would destabilize the base editor *only* after it deaminates the right base.
 
+Read `proposal.pdf` and `slides.pdf` for more detail.
+
 
 ## Resources
 ### Biological Computing
@@ -32,12 +34,14 @@ A proposal to enable faster cellular finite-state-machines. Basic idea is to use
 * `wiki` [Automata Theory](https://cs.stanford.edu/people/eroberts/courses/soco/projects/2004-05/automata-theory/basics.html) 
 * `diagram` [Automata classes](https://upload.wikimedia.org/wikipedia/commons/a/a2/Automata_theory.svg) 
 
+### Comp Architecture
+* `course` [ETHz: Digital Design & Computer Architecture 2021](https://safari.ethz.ch/digitaltechnik/spring2021/doku.php?id=schedule)
+& `course` [Oxford: Microcontroller Systems 2014](https://www.robots.ox.ac.uk/~dwm/Courses/2CO_2014/)
+
 
 ## Questions to address
-* Fast-response to complex stimulus. Transient state preservation. As a tool to re-program gene circuits (modulo counter that changes the write address).
+* fast-response to complex stimulus. Transient state preservation. As a tool to re-program gene circuits (modulo counter that changes the write address).
 * encode some information in RNA to be written (PE)?
 * use roofline model to conceptualize the problem?
-* How to control write error? Less error-prone writer or error correction. Maybe use PE to delete, "flush cache"?
-* For parallelization, how to define a thread here?
-* How to connect information encoded in DNA to information encoded in stable gRNA concentrations?
-* any advantage to making this synchronous via clock?
+* How to control write error? Less error-prone writer or error correction. Maybe use PE to reset cache?
+* any advantage to making this synchronous via clocks?
