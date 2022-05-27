@@ -1,8 +1,8 @@
 # Overview
 
-A proposal to enable faster cellular finite-state-machines. Basic idea is to use a cache hierarchy: construct a fast cache using transcription regulation (CRISPRi + CRISPRa), and a slow cache using an existing concept (DOMINO operator). The main innovation would be to transfer principles from computer architecture, and construct a robust SR latch using CRISPR. Additionaly, we could maybe dramatically speed up DOMINO if we could make base editors dissociate faster. It's been shown in single-molecule experiments that they take hours to dissociate. One idea could be to engineer a "toehold" switch sgRNA. This would destabilize the base editor *only* after it deaminates the right base.
+A proposal to enable faster cellular finite-state-machines. Basic idea is to use a cache hierarchy: construct a fast cache using transcription regulation (CRISPRi + CRISPRa), and a slow cache using an existing concept (DOMINO operator). The main innovation would be to transfer principles from computer architecture, and construct an SR latch using CRISPR. We could maybe speed up DOMINO if we could make base editors dissociate faster. It's been shown in single-molecule experiments that they take hours to dissociate. One idea could be to engineer a "toehold" switch sgRNA. This would destabilize the base editor *only* after it deaminates the right base.
 
-Read `proposal.pdf` and `slides.pdf` for more detail.
+See `proposal.pdf` and `slides.pdf` for more detail.
 
 
 ## Resources
