@@ -1,6 +1,6 @@
 # Overview
 
-A proposal to enable faster cellular finite-state-machines. Basic idea is to use a cache hierarchy: construct a fast cache using transcription regulation (CRISPRi + CRISPRa), and a slow cache using an existing concept (DOMINO operator). The main innovation would be to transfer principles from computer architecture, and construct an SR latch using CRISPR. We could maybe speed up DOMINO if we could make base editors dissociate faster. It's been shown in single-molecule experiments that they take hours to dissociate. One idea could be to engineer a "toehold" switch sgRNA. This would destabilize the base editor *only* after it deaminates the right base.
+A proposal to enable faster cellular finite-state-machines. Basic idea is to use a cache hierarchy: construct a fast cache using transcription regulation (CRISPRi + CRISPRa), and a slow cache using an existing concept (DOMINO operator). Construct an SR-latch using CRISPRi, and introduce cooperativity. Switching time of toggle switch still not very fast (3-6 hours). We could maybe speed up DOMINO if we could make base editors dissociate faster. It's been shown in single-molecule experiments that they take hours to dissociate. One idea could be to engineer a "toehold" switch sgRNA. This would destabilize the base editor *only* after it deaminates the right base.
 
 See `proposal.pdf` and `slides.pdf` for more detail.
 
@@ -41,6 +41,7 @@ See `proposal.pdf` and `slides.pdf` for more detail.
 
 ## Questions to address
 * fast-response to complex stimulus. Transient state preservation. As a tool to re-program gene circuits (modulo counter that changes the write address).
+* switching time model?
 * encode some information in RNA to be written (PE)?
 * use roofline model to conceptualize the problem?
 * How to control write error? Less error-prone writer or error correction. Maybe use PE to reset cache?
